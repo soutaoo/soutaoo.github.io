@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Oswald&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: bisque;
+    color: red;
+    /* padding: 80px; */
+    transition: all 0.5s ease-in-out;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+header nav ul {
+    list-style: none;
+    border: 0ch;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: red;
+    margin-left: 30px;
+    transition: all 0.4s;
+}
+
+header nav ul li a:hover {
+    color: aliceblue;
+}
+
+header nav ul li .contact {
+    display: block;
+    background-color:cadetblue;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+}
+
+.dark-mode {
+    color: white;
+}
+
+main h2 {
+    font-size: 50px;
+}
+
+#icon {
+    width: 50px;
+    cursor: pointer;    
+    margin: 40px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
